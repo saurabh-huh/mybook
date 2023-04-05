@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mybook-Meet People</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/792a0a7d2e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="images/logo.png" class="logo" />
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <div class="sreach-bar">
+          <img src="images/search.png" />
+          <input type="text" placeholder="search" />
+        </div>
+
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" />
+        </div>
+      </div>
+
+      <!-- settings menu---------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" />
+                    <div>
+                        <p>Saurabh Agrahari</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                        <img src="images/feedback.png" />
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon"><a href="#">Setting & privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon"><a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon"><a href="#">Display & Accesibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon"><a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+    </nav>
+
+    <div class="container">
+      <!-- left-sidebar---------------- -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" />Latest News</a>
+          <a href="#"><img src="images/friends.png" />friends</a>
+          <a href="#"><img src="images/group.png" />Group</a>
+          <a href="#"><img src="images/marketplace.png" />Marketplace</a>
+          <a href="#"><img src="images/watch.png" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your shortcut</p>
+          <a href="#"><img src="images/shortcut-1.png" />Web Developers</a>
+          <a href="#"><img src="images/shortcut-2.png" />Web Digns course</a>
+          <a href="#"
+            ><img src="images/shortcut-3.png" />Full stack development</a
+          >
+          <a href="#"><img src="images/shortcut-4.png" />Website Experts</a>
+        </div>
+      </div>
+      <!-- main content---------------- -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="images/upload.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-1.png" />
+            <p>Kratika Sharma</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.png" />
+            <p>Ankur Tiwari</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.png" />
+            <p>Shagun Kaushik</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-4.png" />
+            <p>Arjun Sharma</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>Saurabh Agrahari</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on your mind, Saurabh?"
+            ></textarea>
+
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" />Live Video</a>
+              <a href="#"><img src="images/photo.png" />Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" />Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Saurabh Agrahari</p>
+                <span>June 24 2022, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            I am happy to share my this <span>@happiness</span> to all. Here we
+            are together to celebrate the happiness this event.
+            <a href="#">#teamwork </a> <a href="#">#Mybook-meet people </a>
+            <a href="https://glistening-swan-ed24b8.netlify.app/"
+              >#Sneakerhub</a
+            >
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />120</div>
+              <div><img src="images/comments.png" alt="" />40</div>
+              <div><img src="images/share.png" alt="" />20</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Saurabh Agrahari</p>
+                <span>June 30 2022, 1:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Here we are to celebrate the <span>@happiness</span> of the tech fest going on our college. picnic is going good and the beach experiece is really awesom. 
+            <a href="#">#teamwork </a> <a href="#">#Mybook-meet people </a>
+            <a href="https://glistening-swan-ed24b8.netlify.app/"
+              >#Sneakerhub</a
+            >
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" alt="" />220</div>
+              <div><img src="images/comments.png" alt="" />50</div>
+              <div><img src="images/share.png" alt="" />14</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Saurabh Agrahari</p>
+                <span>July 30 2021, 2:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Here we are to celebrate the <span>@happiness</span> of the tech fest going on our college. picnic is going good and the beach experiece is really awesom. 
+            <a href="#">#teamwork </a> <a href="#">#Mybook-meet people </a>
+            <a href="https://glistening-swan-ed24b8.netlify.app/"
+              >#Sneakerhub</a
+            >
+          </p>
+          <img src="images/feed-image-3.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" alt="" />421</div>
+              <div><img src="images/comments.png" alt="" />20</div>
+              <div><img src="images/share.png" alt="" />10</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Saurabh Agrahari</p>
+                <span>June 30 2021, 5:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Here we are to celebrate the <span>@happiness</span> of the tech fest going on our college. picnic is going good and the beach experiece is really awesom. 
+            <a href="#">#teamwork </a> <a href="#">#Mybook-meet people </a>
+            <a href="https://glistening-swan-ed24b8.netlify.app/"
+              >#Sneakerhub</a
+            >
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" alt="" />263</div>
+              <div><img src="images/comments.png" alt="" />30</div>
+              <div><img src="images/share.png" alt="" />5</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Saurabh Agrahari</p>
+                <span>may 30 2021, 1:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Here we are to celebrate the <span>@happiness</span> of the tech fest going on our college. picnic is going good and the beach experiece is really awesom. 
+            <a href="#">#teamwork </a> <a href="#">#Mybook-meet people </a>
+            <a href="https://glistening-swan-ed24b8.netlify.app/"
+              >#Sneakerhub</a
+            >
+          </p>
+          <img src="images/feed-image-5.png" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" alt="" />520</div>
+              <div><img src="images/comments.png" alt="" />30</div>
+              <div><img src="images/share.png" alt="" />24</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt="" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-button">Load More</button>
+      </div>
+      
+
+      <!-- rigth sidebar--------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="events">
+          <div class="left-events">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-events">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Delhi</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="events">
+          <div class="left-events">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-events">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Delhi</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img
+          src="images/advertisement.png"
+          width="100%"
+          border-radius="4px"
+          margin-bottam="20px"
+        />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" />
+          </div>
+          <p>Kritika Sharma</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" />
+          </div>
+          <p>Ankur Tiwari</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" />
+          </div>
+          <p>Shagun Kaushik</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p>@copyright 2022 -  make my own first web site with help of the youtube.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
